@@ -1,12 +1,5 @@
 class HangpersonGame
   attr_accessor :word, :guesses, :wrong_guesses
-  # add the necessary class methods, attributes, etc. here
-  # to make the tests in spec/hangperson_game_spec.rb pass.
-
-  # Get a word from remote "random word" service
-
-  # def initialize()
-  # end
 
   def initialize(word)
     @word = word
